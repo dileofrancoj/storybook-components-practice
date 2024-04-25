@@ -1,4 +1,4 @@
-import{u as o,a as t}from"./styled-components.browser.esm-BKb3FUPu.js";const r=e=>{switch(e){case"primary":return"#007bff";case"secondary":return"#6c757d";case"success":return"#28a745";case"danger":return"#dc3545";default:return"#007bff"}},n=o.span`
+import{u as o,a as t}from"./styled-components.browser.esm-D5HaCEKv.js";const r=e=>{switch(e){case"primary":return"#007bff";case"secondary":return"#6c757d";case"success":return"#28a745";case"danger":return"#dc3545";default:return"#007bff"}},n=o.span`
   color: ${e=>e.textColor??"white"};
 `,s=o.button`
   display: inline-block;

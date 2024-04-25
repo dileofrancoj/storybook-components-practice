@@ -1,4 +1,4 @@
-import{u as Q,j as t}from"./styled-components.browser.esm-BKb3FUPu.js";import"./index-BBkUAzwr.js";const y=Q.picture``,U=Q.img`
+import{u as Q,j as t}from"./styled-components.browser.esm-D5HaCEKv.js";import"./index-BBhmMsIz.js";const y=Q.picture``,U=Q.img`
     max-width: ${A=>A.maxWidth??"100%"};
     height: auto;
     border-radius: ${A=>A.thumbnail===!0?"4px":"0"};

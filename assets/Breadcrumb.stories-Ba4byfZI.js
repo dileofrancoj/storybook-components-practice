@@ -1,4 +1,4 @@
-import{u as o,j as t}from"./styled-components.browser.esm-BKb3FUPu.js";import"./index-BBkUAzwr.js";const i=[{value:"Home",href:"/home"},{value:"Some Page",href:"/home/some-page"}],g=o.ul`
+import{u as o,j as t}from"./styled-components.browser.esm-D5HaCEKv.js";import"./index-BBhmMsIz.js";const i=[{value:"Home",href:"/home"},{value:"Some Page",href:"/home/some-page"}],g=o.ul`
   display: flex;
   padding: 0;
   margin: 0;
