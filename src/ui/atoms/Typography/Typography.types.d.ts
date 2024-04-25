@@ -1,0 +1,8 @@
+/// <reference types="react" />
+type Component = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span' | 'a';
+export interface Props {
+    color?: string;
+    component?: Component;
+    children: React.ReactNode;
+}
+export {};
