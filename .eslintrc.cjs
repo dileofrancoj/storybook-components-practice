@@ -36,5 +36,5 @@ module.exports = {
         "react/react-in-jsx-scope": 0 // evita el error 'React' must be in scope when using JSX
 
     },
-    "ignorePatterns": [".eslintrc.cjs", "vite.config.ts", "tests/*", "dist/*"],
+    "ignorePatterns": [".eslintrc.cjs", "vite.config.ts", "tests/*", "dist/*", "storybook-static/*"],
 }
