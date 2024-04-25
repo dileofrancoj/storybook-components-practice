@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 import viteTsconfigPaths from 'vite-tsconfig-paths';
 import path from 'path'
 import { configDefaults } from 'vitest/config'
-
+import { type CoverageOptions } from 'vitest'
 
 export default defineConfig({
   plugins: [react(), viteTsconfigPaths(), dts()],
@@ -25,7 +25,13 @@ export default defineConfig({
       exclude: [
         ...configDefaults.exclude, // toda la config para excluir modules
         'src/ui/**/**/*.stories.{ts,tsx}',
-      ]
+      ],
+      thresholds: {
+        lines: 40,
+        functions: 40,
+        branches: 40,
+        statements: 40
+      }
     }
   }
 })

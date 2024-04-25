@@ -10,3 +10,7 @@ export interface Props {
   onButtonClick: () => void
   label: string
 }
+
+export interface Props2 extends Props {
+  children: React.ReactNode
+}

@@ -32,8 +32,9 @@ module.exports = {
         "simple-import-sort/imports": "error",
         "simple-import-sort/exports": "error",
         "@typescript-eslint/no-explicit-any": "error",
-        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "react/react-in-jsx-scope": 0 // evita el error 'React' must be in scope when using JSX
 
     },
-    "ignorePatterns": [".eslintrc.cjs", "vite.config.ts", "tests/*"],
+    "ignorePatterns": [".eslintrc.cjs", "vite.config.ts", "tests/*", "dist/*"],
 }
