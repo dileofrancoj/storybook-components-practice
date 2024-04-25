@@ -13,8 +13,7 @@
     "prepare": "husky install",
     "test": "vitest run --coverage",
     "test:watch": "vitest --watch",
-    "generate": "plop",
-    "build:storybook": "build-storybook"
+    "generate": "plop"
   },
   "dependencies": {
     "react": "^18.2.0",
