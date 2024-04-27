@@ -13,7 +13,7 @@ import React from 'react'
 export function createRender<TProps>(Component: React.ComponentType<TProps>) {
     return (props: Partial<TProps> = {}) => ({
       // user: userEvent.setup(),
-      // @ts-expect-error omit required props
+      // @ts-expect-error omit required props -> se puede agregar un partial
       ...render(<Component {...props} />, {
         // wrapper : '' Acá puede ir el wrapper de un provider que se quiera aplicar al componente
       })

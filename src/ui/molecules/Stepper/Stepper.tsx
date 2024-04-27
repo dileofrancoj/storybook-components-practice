@@ -34,6 +34,7 @@ export const Stepper: React.FC<Props> = (props: Props) => {
         }}
         onClick={decrement}
       >
+        {/* remueve al elemento de la navegación pero permite que sea focuseable   */}
         {shouldShowTrashIcon ? (
           <FaRegTrashCan role="button" tabIndex={-1} />
         ) : (
